@@ -5,7 +5,7 @@
 ## 起動する
 
 ```bash
-cd /Users/hutami/practice/react-calculator-app
+cd /Users/hutami/practice/react-calculator-app/react-calculator-app
 npm install
 npm run dev
 ```
