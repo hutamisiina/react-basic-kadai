@@ -1,0 +1,35 @@
+.profile-page {
+  width: min(520px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 64px 0;
+  text-align: left;
+}
+
+.profile-page h1 {
+  text-align: center;
+}
+
+.profile-page p + p {
+  margin-top: 12px;
+}
+
+.profile-page button {
+  display: block;
+  margin: 24px auto 0;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  background: #646cff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.profile-page button:hover {
+  background: #535bf2;
+}
+
+.profile-page button:focus-visible {
+  outline: 3px solid #b8bbff;
+  outline-offset: 3px;
+}
